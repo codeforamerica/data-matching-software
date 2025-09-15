@@ -30,26 +30,26 @@ Learning](https://en.wikipedia.org/wiki/Supervised_learning), [Unsupervised
 Learning](https://en.wikipedia.org/wiki/Unsupervised_learning) and [Active
 Learning](https://en.wikipedia.org/wiki/Active_learning_(machine_learning)).
 
-| Software                                                        | API    |        GUI         |        Link        |       Dedup        | Supervised <br/> Learning | Unsupervised <br/> Learning | Active <br/> Learning |
-|:----------------------------------------------------------------|:-------|:------------------:|:------------------:|:------------------:|:-------------------------:|:---------------------------:|:---------------------:|
-| [AtyImo](#atyimo)		                                  | PySpark|         :x:	| :white_check_mark: | :white_check_mark: |            :x:            |             :x:               |          :x:          |
-| [Dedupe](#dedupe)                                               | Python |        :x:         | :white_check_mark: | :white_check_mark: |    :white_check_mark:     |             :x:             |  :white_check_mark:   |
-| [dirty-cat](#dirty-cat)                                               | Python|        :x:         | :white_check_mark: | :white_check_mark: |            :white_check_mark:            |      :white_check_mark:     |          :x:          |
-| [fastLink](#fastlink)                                           | R      |        :x:         | :white_check_mark: |  :grey_question:   |            :x:            |     :white_check_mark:      |          :x:          |
-| [FEBRL](#febrl)                                                 | Python | :white_check_mark: | :white_check_mark: | :white_check_mark: |            :x:            |             :x:             |          :x:          |
-| [FRIL](#fril)                                                   | Java   | :white_check_mark: | :white_check_mark: |        :x:         |      :grey_question:      |     :white_check_mark:      |          :x:          |
-| [FuzzyMatcher](#fuzzymatcher)                                   | Python |        :x:         | :white_check_mark: |        :x:         |            :x:            |     :white_check_mark:      |          :x:          |
-| [hlink](#hlink)                                                 | PySpark|        :x:         | :white_check_mark: |  :grey_question:   |            :x:            |            :x:              |          :x:          |
-| [JedAI](#jedai)                                                 | Java   | :white_check_mark: | :white_check_mark: |  :grey_question:   |    :white_check_mark:     |       :grey_question:       |    :grey_question:    |
-| [PRIL](#pril)                                                   | SQL    |        :x:         | :white_check_mark: |  :grey_question:   |      :grey_question:      |       :grey_question:       |    :grey_question:    |
-| [Python Record Linkage Toolkit](#python-record-linkage-toolkit) | Python |        :x:         | :white_check_mark: | :white_check_mark: |    :white_check_mark:     |     :white_check_mark:      |          :x:          |
-| [RecordLinkage (R)](#recordlinkage-r)                           | R      |        :x:         | :white_check_mark: | :white_check_mark: |    :white_check_mark:     |     :white_check_mark:      |          :x:          |
-| [Reclin2](#reclin2)                           | R      |        :x:         | :white_check_mark: | :white_check_mark: |    :white_check_mark:     |     :x:      |          :x:          |
-| [RELAIS](#relais)                                               | :x:    | :white_check_mark: | :white_check_mark: |  :grey_question:   |      :grey_question:      |     :white_check_mark:      |          :x:          |
-| [ReMaDDer](#remadder)                                           | :x:    | :white_check_mark: | :white_check_mark: | :white_check_mark: |            :x:            |     :white_check_mark:      |          :x:          |
-| [RLTK](#rltk) | Python |        :x:         | :white_check_mark: | :white_check_mark: |    :white_check_mark:     |     :x:      |          :x:          |
-| [Splink](#splink)                                               | Python |        :x:         | :white_check_mark: | :white_check_mark: |    :white_check_mark:     |     :white_check_mark:      |          :x:          |
-| [Zingg](#zingg)                                               | Python|        :x:         | :white_check_mark: | :white_check_mark: |            :white_check_mark:            |      :x:     |          :x:          |
+| Software                                                        | API     |        GUI         |        Link        |       Dedup        | Supervised <br/> Learning | Unsupervised <br/> Learning | Active <br/> Learning |
+|:----------------------------------------------------------------|:--------|:------------------:|:------------------:|:------------------:|:-------------------------:|:---------------------------:|:---------------------:|
+| [AtyImo](#atyimo)		                                             | PySpark |        :x:	        | :white_check_mark: | :white_check_mark: |            :x:            |             :x:             |          :x:          |
+| [Dedupe](#dedupe)                                               | Python  |        :x:         | :white_check_mark: | :white_check_mark: |    :white_check_mark:     |             :x:             |  :white_check_mark:   |
+| [dirty-cat](#dirty-cat)                                         | Python  |        :x:         | :white_check_mark: | :white_check_mark: |    :white_check_mark:     |     :white_check_mark:      |          :x:          |
+| [fastLink](#fastlink)                                           | R       |        :x:         | :white_check_mark: |  :grey_question:   |            :x:            |     :white_check_mark:      |          :x:          |
+| [FEBRL](#febrl)                                                 | Python  | :white_check_mark: | :white_check_mark: | :white_check_mark: |            :x:            |             :x:             |          :x:          |
+| [FRIL](#fril)                                                   | Java    | :white_check_mark: | :white_check_mark: |        :x:         |      :grey_question:      |     :white_check_mark:      |          :x:          |
+| [FuzzyMatcher](#fuzzymatcher)                                   | Python  |        :x:         | :white_check_mark: |        :x:         |            :x:            |     :white_check_mark:      |          :x:          |
+| [hlink](#hlink)                                                 | PySpark |        :x:         | :white_check_mark: |  :grey_question:   |            :x:            |             :x:             |          :x:          |
+| [JedAI](#jedai)                                                 | Java    | :white_check_mark: | :white_check_mark: |  :grey_question:   |    :white_check_mark:     |       :grey_question:       |    :grey_question:    |
+| [PRIL](#pril)                                                   | SQL     |        :x:         | :white_check_mark: |  :grey_question:   |      :grey_question:      |       :grey_question:       |    :grey_question:    |
+| [Python Record Linkage Toolkit](#python-record-linkage-toolkit) | Python  |        :x:         | :white_check_mark: | :white_check_mark: |    :white_check_mark:     |     :white_check_mark:      |          :x:          |
+| [RecordLinkage (R)](#recordlinkage-r)                           | R       |        :x:         | :white_check_mark: | :white_check_mark: |    :white_check_mark:     |     :white_check_mark:      |          :x:          |
+| [Reclin2](#reclin2)                                             | R       |        :x:         | :white_check_mark: | :white_check_mark: |    :white_check_mark:     |             :x:             |          :x:          |
+| [RELAIS](#relais)                                               | :x:     | :white_check_mark: | :white_check_mark: |  :grey_question:   |      :grey_question:      |     :white_check_mark:      |          :x:          |
+| [ReMaDDer](#remadder)                                           | :x:     | :white_check_mark: | :white_check_mark: | :white_check_mark: |            :x:            |     :white_check_mark:      |          :x:          |
+| [RLTK](#rltk)                                                   | Python  |        :x:         | :white_check_mark: | :white_check_mark: |    :white_check_mark:     |             :x:             |          :x:          |
+| [Splink](#splink)                                               | Python  |        :x:         | :white_check_mark: | :white_check_mark: |    :white_check_mark:     |     :white_check_mark:      |          :x:          |
+| [Zingg](#zingg)                                                 | Python  |        :x:         | :white_check_mark: | :white_check_mark: |    :white_check_mark:     |             :x:             |          :x:          |
 
 :white_check_mark: Yes/Implemented
 :x: No/Not implemented
@@ -67,13 +67,15 @@ Brazil–U.K. project aiming at building a large population-based cohort with da
 from more than 100 million participants and producing disease-specific data to facilitate 
 diverse epidemiological research studies. 
 
-|  |  |
-|---|---| 
-| License | ![GitHub](https://img.shields.io/github/license/pierrepita/atyimo) |
-| Language | `Python` `Spark` | 
-| Latest release | NA |
+|                     |  |
+|---------------------|---| 
+| License             | ![GitHub](https://img.shields.io/github/license/pierrepita/atyimo) |
+| Language            | `Python` `Spark` | 
+| Latest release      | NA |
 | Downloads per month |  |
-| GitHub stars | [![GitHub stars](https://img.shields.io/github/stars/pierrepita/atyimo.svg?style=social&label=Star)](https://github.com/pierrepita/atyimo) |
+| GitHub stars        | [![GitHub stars](https://img.shields.io/github/stars/pierrepita/atyimo.svg?style=social&label=Star)](https://github.com/pierrepita/atyimo) |
+| Last commit date    | [![Last Commit](https://img.shields.io/github/last-commit/pierrepita/atyimo.svg)](https://github.com/pierrepita/atyimo/commits) |
+| Contributors        | [![Contributors](https://img.shields.io/github/contributors/pierrepita/atyimo.svg)](https://github.com/pierrepita/atyimo/graphs/contributors) |
 
 #### [Dedupe](https://github.com/dedupeio/dedupe)
 
@@ -84,26 +86,30 @@ Dedupe has a side-product for deduplicating CSV files,
 [csvdedupe](https://github.com/dedupeio/csvdedupe), through the command line.
 Dedupeio also offers commercial products for data matching.  
 
-|  |  |
-|---|---| 
-| License | ![PyPI - License](https://img.shields.io/pypi/l/dedupe) |
-| Language | ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/dedupe) | 
-| Latest release | [![PyPI](https://img.shields.io/pypi/v/dedupe.svg)](https://pypi.python.org/pypi/dedupe/) |
-| Downloads per month | ![PyPI - Downloads](https://img.shields.io/pypi/dm/dedupe) |
-| GitHub stars | [![GitHub stars](https://img.shields.io/github/stars/dedupeio/dedupe.svg?style=social&label=Star)](https://github.com/dedupeio/dedupe) |
+|                     |                                                                                                                                               |
+|---------------------|-----------------------------------------------------------------------------------------------------------------------------------------------| 
+| License             | ![PyPI - License](https://img.shields.io/pypi/l/dedupe)                                                                                       |
+| Language            | ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/dedupe)                                                                       | 
+| Latest release      | [![PyPI](https://img.shields.io/pypi/v/dedupe.svg)](https://pypi.python.org/pypi/dedupe/)                                                     |
+| Downloads per month | ![PyPI - Downloads](https://img.shields.io/pypi/dm/dedupe)                                                                                    |
+| GitHub stars        | [![GitHub stars](https://img.shields.io/github/stars/dedupeio/dedupe.svg?style=social&label=Star)](https://github.com/dedupeio/dedupe)        |
+| Last commit date    | [![Last Commit](https://img.shields.io/github/last-commit/dedupeio/dedupe.svg)](https://github.com/dedupeio/dedupe/commits) |
+| Contributors        | [![Contributors](https://img.shields.io/github/contributors/dedupeio/dedupe.svg)](https://github.com/dedupeio/dedupe/graphs/contributors) |
 
 #### [dirty-cat](https://github.com/dirty-cat/dirty_cat)
 
 [dirty-cat](https://dirty-cat.github.io/) is an open-source Python package that facilitates machine-learning with with dirty data: robust to morphological variants, such as typos. Some of the currently supported features are: fuzzy joining tables on dirty numerical, string or mixed type columns, deduplicating and encoding dirty categorical variables for ML. [This example](https://dirty-cat.github.io/stable/auto_examples/01_dirty_categories.html) illustrates why to use dirty-cat encoders rather than OneHotEncoder on dirty data and [this one](https://dirty-cat.github.io/stable/auto_examples/04_fuzzy_joining_and_FeatureAugmenter.html) shows how to join multiple dirty tables for ML.
 The transfomers ([TableVectorizer](https://dirty-cat.github.io/stable/generated/dirty_cat.TableVectorizer.html), [FeatureAugmenter](https://dirty-cat.github.io/stable/generated/dirty_cat.FeatureAugmenter.html)) are scikit-learn compatible, and easily introduced into ML pipelines.
 
-|  |  |
-|---|---| 
-| License | ![PyPI - License](https://img.shields.io/pypi/l/zingg) |
-| Language | ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/zingg) `Spark` | 
-| Latest release | [![PyPI](https://img.shields.io/pypi/v/zingg.svg)](https://pypi.python.org/pypi/zingg/) |
-| Downloads per month | ![PyPI - Downloads](https://img.shields.io/pypi/dm/zingg) |
-| GitHub stars | [![GitHub stars](https://img.shields.io/github/stars/zinggAI/zingg.svg?style=social&label=Star)](https://github.com/zinggAI) |
+|  |                                                                                                                                       |
+|---|---------------------------------------------------------------------------------------------------------------------------------------| 
+| License | ![PyPI - License](https://img.shields.io/pypi/l/zingg)                                                                                |
+| Language | ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/zingg) `Spark`                                                        | 
+| Latest release | [![PyPI](https://img.shields.io/pypi/v/zingg.svg)](https://pypi.python.org/pypi/zingg/)                                               |
+| Downloads per month | ![PyPI - Downloads](https://img.shields.io/pypi/dm/zingg)                                                                             |
+| GitHub stars | [![GitHub stars](https://img.shields.io/github/stars/zinggAI/zingg.svg?style=social&label=Star)](https://github.com/zinggAI)          |
+| Last commit date    | [![Last Commit](https://img.shields.io/github/last-commit/zinggAI/zingg.svg)](https://github.com/zinggAI/zingg/commits)               |
+| Contributors        | [![Contributors](https://img.shields.io/github/contributors/zinggAI/zingg.svg)](https://github.com/zinggAI/zingg/graphs/contributors) |
 
 #### [fastLink](https://cran.r-project.org/web/packages/fastLink/index.html)
 
@@ -115,49 +121,16 @@ API written in R. ([Enamorado, Fifield & Imai,
 2017](http://imai.princeton.edu/research/files/linkage.pdf))  [[source
 code]](https://github.com/kosukeimai/fastLink) 
 
-|  |  |
-|---|---| 
-| License | ![CRAN/METACRAN](https://img.shields.io/cran/l/fastLink) |
-| Language | `R`  | 
-| Latest release | [![CRAN](https://img.shields.io/cran/v/fastLink.svg)](https://cran.r-project.org/web/packages/fastLink/index.html) |
-| Downloads per month | [![metacran downloads](https://cranlogs.r-pkg.org/badges/last-month/fastLink)](https://cran.r-project.org/package=fastLink) |
-| GitHub stars | [![GitHub stars](https://img.shields.io/github/stars/kosukeimai/fastLink.svg?style=social&label=Star)](https://github.com/kosukeimai/fastLink) |
+|  |                                                                                                                                                   |
+|---|---------------------------------------------------------------------------------------------------------------------------------------------------| 
+| License | ![CRAN/METACRAN](https://img.shields.io/cran/l/fastLink)                                                                                          |
+| Language | `R`                                                                                                                                               | 
+| Latest release | [![CRAN](https://img.shields.io/cran/v/fastLink.svg)](https://cran.r-project.org/web/packages/fastLink/index.html)                                |
+| Downloads per month | [![metacran downloads](https://cranlogs.r-pkg.org/badges/last-month/fastLink)](https://cran.r-project.org/package=fastLink)                       |
+| GitHub stars | [![GitHub stars](https://img.shields.io/github/stars/kosukeimai/fastLink.svg?style=social&label=Star)](https://github.com/kosukeimai/fastLink)    |
+| Last commit date    | [![Last Commit](https://img.shields.io/github/last-commit/kosukeimai/fastLink.svg)](https://github.com/kosukeimai/fastLink/commits)                     |
+| Contributors        | [![Contributors](https://img.shields.io/github/contributors/kosukeimai/fastLink.svg)](https://github.com/kosukeimai/fastLink/graphs/contributors) |
 
-#### [FEBRL](https://sourceforge.net/projects/febrl/)
-
-Febrl (Freely Extensible Biomedical Record Linkage) is a training tool
-suitable for users to learn and experiment with record linkage techniques, as
-well as for practitioners to conduct linkages with data sets containing up to
-several hundred thousand records. Febrl is a data matching tool with a large
-number of algorithms implemented and offers a Python programming interface as
-well as simple GUI. Febrl doesn't offer unsupervised and active learning
-algorithms. The software is no longer actively maintained. ([Christen,
-2008](http://crpit.com/confpapers/CRPITV80Christen.pdf)) [[source
-code]](https://sourceforge.net/projects/febrl/)
-
-|  |  |
-|---|---| 
-| License | Custom |
-| Language | `Python` | 
-| Latest release |  |
-| Downloads per month |  |
-| GitHub stars |  |
-
-#### [FRIL](http://fril.sourceforge.net/)
-
-FRIL (Fine-grained Records Integration and Linkage tool) is free tool that
-enables record linkage through a GUI. The tool implements automatic weights
-estimation through the EM-algorithm and offers serveral techniques to make
-record pairs. FRIL was developed by the Emory University and is not longer
-maintained. [[source code]](http://fril.sourceforge.net/download.html)
-
-|  |  |
-|---|---| 
-| License | Custom |
-| Language | `Java` | 
-| Latest release |  |
-| Downloads per month |  |
-| GitHub stars |  |
 
 #### [FuzzyMatcher](https://pypi.python.org/pypi/fuzzymatcher) 
 
@@ -172,35 +145,37 @@ moment. [[source code]](https://github.com/RobinL/fuzzymatcher)
 | Latest release | [![PyPI](https://img.shields.io/pypi/v/fuzzymatcher.svg)](https://pypi.python.org/pypi/fuzzymatcher/) |
 | Downloads per month | ![PyPI - Downloads](https://img.shields.io/pypi/dm/fuzzymatcher) |
 | GitHub stars | [![GitHub stars](https://img.shields.io/github/stars/RobinL/fuzzymatcher.svg?style=social&label=Star)](https://github.com/RobinL/fuzzymatcher) |
-
+| Last commit date    | [![Last Commit](https://img.shields.io/github/last-commit/RobinL/fuzzymatcher.svg)](https://github.com/RobinL/fuzzymatcher/commits)                     |
+| Contributors        | [![Contributors](https://img.shields.io/github/contributors/RobinL/fuzzymatcher.svg)](https://github.com/RobinL/fuzzymatcher/graphs/contributors) |
 
 #### [hlink](https://pypi.python.org/pypi/hlink) 
 
 A Python package designed to link two datasets. The primary use case was for linking demographics in the Household -> Person hierarchical structure, however it can be used to link generic datasets as well by skipping household linking tasks. It allows for probabilistic and deterministic record linkage. [[source_code]](https://github.com/ipums/hlink)
 
-|  |  |
-|---|---| 
-| License | ![PyPI - License](https://img.shields.io/pypi/l/hlink) |
-| Language | ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/hlink) | 
-| Latest release | [![PyPI](https://img.shields.io/pypi/v/hlink.svg)](https://pypi.python.org/pypi/hlink/) |
-| Downloads per month | ![PyPI - Downloads](https://img.shields.io/pypi/dm/hlink) |
-| GitHub stars | [![GitHub stars](https://img.shields.io/github/stars/ipums/hlink?style=social&label=Star)](https://github.com/ipums/hlink) |
-
-
+|  |                                                                                                                                               |
+|---|-----------------------------------------------------------------------------------------------------------------------------------------------| 
+| License | ![PyPI - License](https://img.shields.io/pypi/l/hlink)                                                                                        |
+| Language | ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/hlink)                                                                        | 
+| Latest release | [![PyPI](https://img.shields.io/pypi/v/hlink.svg)](https://pypi.python.org/pypi/hlink/)                                                       |
+| Downloads per month | ![PyPI - Downloads](https://img.shields.io/pypi/dm/hlink)                                                                                     |
+| GitHub stars | [![GitHub stars](https://img.shields.io/github/stars/ipums/hlink?style=social&label=Star)](https://github.com/ipums/hlink)                    |
+| Last commit date    | [![Last Commit](https://img.shields.io/github/last-commit/ipums/hlink.svg)](https://github.com/ipums/hlink/commits)                   |
+| Contributors        | [![Contributors](https://img.shields.io/github/contributors/ipums/hlink.svg)](https://github.com/ipums/hlink/graphs/contributors) |
 #### [JedAI](http://jedai.scify.org/) 
 
 Java gEneric DAta Integration (JedAI) Toolkit is a Entity Resolution Tool
 developed by a group of univeristies. JedAI offers a Graphical User Interface.
 [[source code]](https://github.com/scify/JedAIToolkit) 
 
-|  |  |
-|---|---| 
-| License | ![GitHub](https://img.shields.io/github/license/scify/JedAIToolkit) |
-| Language | `Java` | 
-| Latest release |  |
-| Downloads per month |  |
-| GitHub stars | [![GitHub stars](https://img.shields.io/github/stars/scify/JedAIToolkit.svg?style=social&label=Star)](https://github.com/scify/JedAIToolkit) |
-
+|  |                                                                                                                                                 |
+|---|-------------------------------------------------------------------------------------------------------------------------------------------------| 
+| License | ![GitHub](https://img.shields.io/github/license/scify/JedAIToolkit)                                                                             |
+| Language | `Java`                                                                                                                                          | 
+| Latest release | [![Github](https://img.shields.io/github/v/release/scify/JedAIToolkit)](https://github.com/scify/JedAIToolkit/releases)                                    |
+| Downloads per month |                                                                                                                                                 |
+| GitHub stars | [![GitHub stars](https://img.shields.io/github/stars/scify/JedAIToolkit.svg?style=social&label=Star)](https://github.com/scify/JedAIToolkit)    |
+| Last commit date    | [![Last Commit](https://img.shields.io/github/last-commit/scify/JedAIToolkit.svg)](https://github.com/scify/JedAIToolkit/commits)               |
+| Contributors        | [![Contributors](https://img.shields.io/github/contributors/scify/JedAIToolkit.svg)](https://github.com/scify/JedAIToolkit/graphs/contributors) |
 #### [PRIL](https://github.com/LSHTM-ALPHAnetwork/PIRL_RecordLinkageSoftware) 
 
 PRIL (Point-of-contact Interactive Record Linkage) is a record linkage program
@@ -216,7 +191,8 @@ code]](https://github.com/LSHTM-ALPHAnetwork/PIRL_RecordLinkageSoftware)
 | Latest release |  |
 | Downloads per month |  |
 | GitHub stars | [![GitHub stars](https://img.shields.io/github/stars/LSHTM-ALPHAnetwork/PIRL_RecordLinkageSoftware.svg?style=social&label=Star)](https://github.com/LSHTM-ALPHAnetwork/PIRL_RecordLinkageSoftware) |
-
+| Last commit date    | [![Last Commit](https://img.shields.io/github/last-commit/LSHTM-ALPHAnetwork/PIRL_RecordLinkageSoftware.svg)](https://github.com/LSHTM-ALPHAnetwork/PIRL_RecordLinkageSoftware/commits)               |
+| Contributors        | [![Contributors](https://img.shields.io/github/contributors/LSHTM-ALPHAnetwork/PIRL_RecordLinkageSoftware.svg)](https://github.com/LSHTM-ALPHAnetwork/PIRL_RecordLinkageSoftware/graphs/contributors) |
 #### [Python Record Linkage Toolkit](https://github.com/J535D165/recordlinkage) 
 
 The Python Record Linkage Toolkit is a library to link records in or between
@@ -231,7 +207,8 @@ small or medium sized files.
 | Latest release | [![PyPI](https://img.shields.io/pypi/v/recordlinkage.svg)](https://pypi.python.org/pypi/recordlinkage/) |
 | Downloads per month | ![PyPI - Downloads](https://img.shields.io/pypi/dm/recordlinkage) |
 | GitHub stars | [![GitHub stars](https://img.shields.io/github/stars/J535D165/recordlinkage.svg?style=social&label=Star)](https://github.com/J535D165/recordlinkage) |
-
+| Last commit date    | [![Last Commit](https://img.shields.io/github/last-commit/J535D165/recordlinkage.svg)](https://github.com/J535D165/recordlinkage/commits)           |
+| Contributors        | [![Contributors](https://img.shields.io/github/contributors/J535D165/recordlinkage.svg)](https://github.com/J535D165/recordlinkage/graphs/contributors) |
 #### [RecordLinkage (R)](https://cran.r-project.org/web/packages/RecordLinkage/index.html) 
 
 Package written in R that provides functions for linking and de-duplicating
@@ -246,7 +223,8 @@ package is published on CRAN.
 | Latest release | [![CRAN](https://img.shields.io/cran/v/RecordLinkage.svg)](https://cran.r-project.org/web/packages/RecordLinkage/index.html) |
 | Downloads per month | [![metacran downloads](https://cranlogs.r-pkg.org/badges/last-month/RecordLinkage)](https://cran.r-project.org/package=RecordLinkage) |
 | GitHub stars |  |
-
+| Last commit date    |  |
+| Contributors        |  |
 
 #### [Reclin2](https://github.com/djvanderlaan/reclin2)
 
@@ -262,6 +240,8 @@ package is published on CRAN. Formerly https://github.com/djvanderlaan/reclin.
 | Latest release | [![CRAN](https://img.shields.io/cran/v/reclin2.svg)](https://cran.r-project.org/web/packages/reclin2/index.html) |
 | Downloads per month | [![metacran downloads](https://cranlogs.r-pkg.org/badges/last-month/reclin2)](https://cran.r-project.org/package=reclin2) |
 | GitHub stars | [![GitHub stars](https://img.shields.io/github/stars/djvanderlaan/reclin2.svg?style=social&label=Star)](https://github.com/djvanderlaan/reclin2) |
+| Last commit date    | [![Last Commit](https://img.shields.io/github/last-commit/djvanderlaan/reclin2.svg)](https://github.com/djvanderlaan/reclin2/commits)           |
+| Contributors        | [![Contributors](https://img.shields.io/github/contributors/djvanderlaan/reclin2.svg)](https://github.com/djvanderlaan/reclin2/graphs/contributors) |
 
 #### [RELAIS](https://www.istat.it/en/methods-and-tools/methods-and-it-tools/process/processing-tools/relais)
 
@@ -276,6 +256,8 @@ official statistics in Italy.
 | Latest release |  |
 | Downloads per month |  |
 | GitHub stars |  |
+| Last commit date    |  |
+| Contributors        |  |
 
 #### [ReMaDDer](http://remadder.findmysoft.com/)
 
@@ -292,7 +274,8 @@ connection to work.
 | Latest release |  |
 | Downloads per month |  |
 | GitHub stars |  |
-
+| Last commit date    |  |
+| Contributors        |  |
 #### [RLTK](https://github.com/usc-isi-i2/rltk)
 
 The Record Linkage ToolKit (RLTK) is a general-purpose open-source record
@@ -306,7 +289,8 @@ and deduplication.
 | Latest release | [![PyPI](https://img.shields.io/pypi/v/rltk.svg)](https://pypi.python.org/pypi/rltk/) |
 | Downloads per month | ![PyPI - Downloads](https://img.shields.io/pypi/dm/rltk) |
 | GitHub stars | [![GitHub stars](https://img.shields.io/github/stars/usc-isi-i2/rltk.svg?style=social&label=Star)](https://github.com/usc-isi-i2/rltk) |
-
+| Last commit date    | [![Last Commit](https://img.shields.io/github/last-commit/usc-isi-i2/rltk.svg)](https://github.com/usc-isi-i2/rltk/commits)           |
+| Contributors        | [![Contributors](https://img.shields.io/github/contributors/usc-isi-i2/rltk.svg)](https://github.com/usc-isi-i2/rltk/graphs/contributors) |
 #### [Splink](https://github.com/moj-analytical-services/splink)
 
 Splink is a Python package for probabilistic record linkage at scale.
@@ -325,7 +309,8 @@ code]](https://github.com/moj-analytical-services/splink)
 | Latest release | [![PyPI](https://img.shields.io/pypi/v/splink.svg)](https://pypi.python.org/pypi/splink/) |
 | Downloads per month | ![PyPI - Downloads](https://img.shields.io/pypi/dm/splink) |
 | GitHub stars | [![GitHub stars](https://img.shields.io/github/stars/moj-analytical-services/splink.svg?style=social&label=Star)](https://github.com/moj-analytical-services/splink) |
-
+| Last commit date    | [![Last Commit](https://img.shields.io/github/last-commit/moj-analytical-services/splink.svg)](https://github.com/moj-analytical-services/splink/commits)           |
+| Contributors        | [![Contributors](https://img.shields.io/github/contributors/moj-analytical-services/splink.svg)](https://github.com/moj-analytical-services/splink/graphs/contributors) |
 #### [Zingg](https://github.com/zinggAI/zingg)
 
 [Zingg](https://zingg.ai) is an open-source ML based tool for entity resolution with which analytics engineer and the data scientist can quickly integrate data silos and build unified views at scale. Zingg has the ability to connect to disparate data source, local and cloud file systems in any format, enterprise applications and relational, NoSQL and cloud databases and warehouses. It scales to large volume of data and you can define domain specific functions to improve matching.
@@ -338,7 +323,8 @@ Not only Zingg support English as well as Chinese, Thai, Japanese, Hindi and oth
 | Latest release | [![PyPI](https://img.shields.io/pypi/v/zingg.svg)](https://pypi.python.org/pypi/zingg/) |
 | Downloads per month | ![PyPI - Downloads](https://img.shields.io/pypi/dm/zingg) |
 | GitHub stars | [![GitHub stars](https://img.shields.io/github/stars/zinggAI/zingg.svg?style=social&label=Star)](https://github.com/zinggAI) |
-
+| Last commit date    | [![Last Commit](https://img.shields.io/github/last-commit/zinggAI/zingg.svg)](https://github.com/zinggAI/zingg/commits)           |
+| Contributors        | [![Contributors](https://img.shields.io/github/contributors/zinggAI/zingg.svg)](https://github.com/zinggAI/zingg/graphs/contributors) |
 ## Outdated/ no longer available
 
 #### BigMatch (by USA census)
@@ -353,6 +339,25 @@ available about this program [(BigMatch,
 The Link King’s graphical user interface (GUI) makes record linkage and
 unduplication easy for beginning and advanced users. The software requires a
 SAS license. `SAS`
+
+#### [FEBRL](https://sourceforge.net/projects/febrl/)
+
+Febrl (Freely Extensible Biomedical Record Linkage) is a training tool
+suitable for users to learn and experiment with record linkage techniques, as
+well as for practitioners to conduct linkages with data sets containing up to
+several hundred thousand records. Febrl is a data matching tool with a large
+number of algorithms implemented and offers a Python programming interface as
+well as simple GUI. Febrl doesn't offer unsupervised and active learning
+algorithms. The software is no longer actively maintained and was last updated in 2011. ([Christen,
+2008](http://crpit.com/confpapers/CRPITV80Christen.pdf)) [[source
+code]](https://sourceforge.net/projects/febrl/)
+
+#### [FRIL](http://fril.sourceforge.net/)
+FRIL (Fine-grained Records Integration and Linkage tool) is free tool that
+enables record linkage through a GUI. The tool implements automatic weights
+estimation through the EM-algorithm and offers several techniques to make
+record pairs. FRIL was developed by the Emory University and is not longer
+maintained. It was last updated in 2011 and compatible with Java version 6 [[source code]](http://fril.sourceforge.net/download.html)
 
 ## Contributing
 
